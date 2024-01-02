@@ -20,7 +20,28 @@ Anaconda - Python 3.7
 ## PROGRAM:
 
 ### OUTPUT:
+#Program to find the Word Count using command line arguments
 
+#Developed by:ajina joshpin
+
+#register Number:23013547
+
+fname=input("enter the file name")
+
+num_words=0
+
+with open(fname, 'r') as f:
+
+for line in f:
+
+words=line.split()
+
+num_words+=len (words)
+
+print('Number of words: ',num_words)
+
+## output:
+![Screenshot 2024-01-02 144953](https://github.com/ajinajoshpin/Word-count/assets/148514578/421d7a55-7698-4760-970c-39e6b77a53be)
 
 
 ## RESULT:
